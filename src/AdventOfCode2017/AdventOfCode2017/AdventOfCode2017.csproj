@@ -50,12 +50,28 @@
     <Compile Include="Day02\Part2.cs" />
     <Compile Include="Day03\Part1.cs" />
     <Compile Include="Day03\Part2.cs" />
+    <Compile Include="Day04\Part1.cs" />
+    <Compile Include="Day04\Part2.cs" />
+    <Compile Include="Day05\Part1.cs" />
+    <Compile Include="Day05\Part2.cs" />
+    <Compile Include="Day06\Part1.cs" />
+    <Compile Include="Utils\RawInputParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Day04\rawInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day05\rawInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day06\rawInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
