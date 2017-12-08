@@ -10,6 +10,7 @@ namespace AdventOfCode2017
     {
         static void Main(string[] args)
         {
+            Day03.Task1.Run();
         }
     }
 }
