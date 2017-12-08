@@ -42,8 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Day03\Task1.cs" />
-    <Compile Include="Day03\Task2.cs" />
+    <Compile Include="Day01\RawInput.cs" />
+    <Compile Include="Day01\Part1.cs" />
+    <Compile Include="Day01\Part2.cs" />
+    <Compile Include="Day02\RawInput.cs" />
+    <Compile Include="Day02\Part1.cs" />
+    <Compile Include="Day02\Part2.cs" />
+    <Compile Include="Day03\Part1.cs" />
+    <Compile Include="Day03\Part2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AdventOfCode2017
+﻿namespace AdventOfCode2017
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Day03.Task1.Run();
-            Day03.Task2.Run();
+            Day01.Part1.Run();
+            Day01.Part2.Run();
+            Day02.Part1.Run();
+            Day02.Part2.Run();
+            Day03.Part1.Run();
+            Day03.Part2.Run();
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace AdventOfCode2017.Day03
 {
-    public class Task1
+    public class Part1
     {
         private enum Corner
         {

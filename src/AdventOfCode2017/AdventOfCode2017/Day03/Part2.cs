@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2017.Day03
 {
-    public class Task2
+    public class Part2
     {
         private enum Direction
         {
