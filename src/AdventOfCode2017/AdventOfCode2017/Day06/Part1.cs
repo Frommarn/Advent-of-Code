@@ -17,7 +17,15 @@ namespace AdventOfCode2017.Day06
 
         private static int CalculateNrOFCycles(string[] memoryBanks)
         {
-            throw new NotImplementedException();
+            int[] memoryBanksAsInts = memoryBanks.Select(s => int.Parse(s));
+            List<string> memoryBankDistributions = new List<string>();
+            memoryBankDistributions.Add(StringifyMemoryBanks(memoryBanksAsInts));
+            int i = "";
+            // "flat recursion"
+            while (true)
+            {
+                
+            }
         }
     }
 }

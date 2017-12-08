@@ -1,8 +1,8 @@
 ﻿namespace AdventOfCode2017
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Day01.Part1.Run();
             Day01.Part2.Run();

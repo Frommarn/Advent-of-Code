@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace AdventOfCode2017.Day01
 {
-    public class Part1
+    public static class Part1
     {
         public static void Run()
         {
