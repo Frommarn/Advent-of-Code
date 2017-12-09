@@ -56,6 +56,7 @@
     <Compile Include="Day05\Part2.cs" />
     <Compile Include="Day06\Part2.cs" />
     <Compile Include="Day06\Part1.cs" />
+    <Compile Include="Day07\Part2.cs" />
     <Compile Include="Day07\Part1.cs" />
     <Compile Include="Day07\ProgramData.cs" />
     <Compile Include="Utils\ExitKey.cs" />

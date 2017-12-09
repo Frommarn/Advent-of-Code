@@ -2,6 +2,17 @@
 
 namespace AdventOfCode2017.Day07
 {
+    // Extension for part2
+    public class ProgramData2 : ProgramData
+    {
+        public ProgramData2() : base()
+        {
+            TotalWeight = 0;
+        }
+
+        public int TotalWeight { get; set; }
+    }
+
     public class ProgramData
     {
         private List<ProgramData> mCarriedProgramNames;
@@ -27,6 +38,11 @@ namespace AdventOfCode2017.Day07
             mCarriedProgramNames.Add(carriedProgram);
             carriedProgram.IsCarried = true;
             this.IsCarryingOthers = true;
+        }
+
+        public List<ProgramData> GetCarriedPrograms()
+        {
+            return mCarriedProgramNames;
         }
     }
 }
