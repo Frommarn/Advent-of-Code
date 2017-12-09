@@ -4,6 +4,8 @@
     {
         public static void Main(string[] args)
         {
+            Day07.Part1.Run();
+
             Day01.Part1.Run();
             Day01.Part2.Run();
 
@@ -18,6 +20,9 @@
 
             Day05.Part1.Run();
             Day05.Part2.Run();
+
+            Day06.Part1.Run();
+            Day06.Part2.Run();
         }
     }
 }

@@ -10,7 +10,7 @@ namespace AdventOfCode2017.Day01
             List<short> input = RawInput.ParseInput(RawInput.mInput);
             int result = CalculateReverseCaptcha(input);
             Console.WriteLine("The inverse Captcha is: " + result);
-            Console.ReadKey();
+            Utils.ExitKey.ExitAppIfEsc();
         }
 
         /// <summary>

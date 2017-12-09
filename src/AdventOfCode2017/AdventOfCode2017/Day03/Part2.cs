@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AdventOfCode2017.Day03
 {
@@ -24,7 +20,7 @@ namespace AdventOfCode2017.Day03
             PrimeGrid(mGrid, 20, 20, -1);
             int result = FindFirstLargerValue(mTargetNr);
             Console.WriteLine("The first larger value written is: " + result);
-            Console.ReadKey();
+            Utils.ExitKey.ExitAppIfEsc();
         }
 
         private static void PrimeGrid(int[,] grid, int xLength, int yLength, int primer)

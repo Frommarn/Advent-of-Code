@@ -9,7 +9,7 @@ namespace AdventOfCode2017.Day04
         {
             int nrOfValidPassPhrases = CountValidPassPhrases(Utils.RawInputParser.ReadRawInputFromFile("04", "rawInput.txt"));
             Console.WriteLine("The number of valid passphrases are: " + nrOfValidPassPhrases);
-            Console.ReadKey();
+            Utils.ExitKey.ExitAppIfEsc();
         }
 
         private static int CountValidPassPhrases(string[] passPhrases)

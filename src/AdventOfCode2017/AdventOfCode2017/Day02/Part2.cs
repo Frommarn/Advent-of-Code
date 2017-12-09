@@ -9,7 +9,7 @@ namespace AdventOfCode2017.Day02
         {
             int divisibleChecksum = CalculateDivisibleChecksum(RawInput.mInput);
             Console.WriteLine("Divisible checksum: " + divisibleChecksum);
-            Console.ReadKey();
+            Utils.ExitKey.ExitAppIfEsc();
         }
 
         private static int CalculateDivisibleChecksum(string[] rawInput)

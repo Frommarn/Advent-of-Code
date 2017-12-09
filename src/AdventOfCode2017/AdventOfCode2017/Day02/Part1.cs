@@ -9,7 +9,7 @@ namespace AdventOfCode2017.Day02
         {
             int checksum = CalculateChecksum(RawInput.mInput);
             Console.WriteLine("Checksum:           " + checksum);
-            Console.ReadKey();
+            Utils.ExitKey.ExitAppIfEsc();
         }
 
         private static int CalculateChecksum(string[] rawInput)

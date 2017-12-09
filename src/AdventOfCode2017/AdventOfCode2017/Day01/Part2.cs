@@ -10,7 +10,7 @@ namespace AdventOfCode2017.Day01
             List<short> input = RawInput.ParseInput(RawInput.mInput);
             int result2 = CalculateHalfwayCaptcha(input);
             Console.WriteLine("The halfway Captcha is: " + result2);
-            Console.ReadKey();
+            Utils.ExitKey.ExitAppIfEsc();
         }
 
         /// <summary>

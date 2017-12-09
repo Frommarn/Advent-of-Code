@@ -54,7 +54,11 @@
     <Compile Include="Day04\Part2.cs" />
     <Compile Include="Day05\Part1.cs" />
     <Compile Include="Day05\Part2.cs" />
+    <Compile Include="Day06\Part2.cs" />
     <Compile Include="Day06\Part1.cs" />
+    <Compile Include="Day07\Part1.cs" />
+    <Compile Include="Day07\ProgramData.cs" />
+    <Compile Include="Utils\ExitKey.cs" />
     <Compile Include="Utils\RawInputParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,6 +76,13 @@
     <Content Include="Day06\rawInput.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Day07\rawInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day07\TestInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

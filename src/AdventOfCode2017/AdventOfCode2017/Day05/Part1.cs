@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AdventOfCode2017.Day05
 {
@@ -12,7 +9,7 @@ namespace AdventOfCode2017.Day05
         {
             int nrOfJumps = CountNrOfJumpsNeeded(Utils.RawInputParser.ReadRawInputFromFile("05", "rawInput.txt"));
             Console.WriteLine("Nr of jumps to escape the maze: " + nrOfJumps);
-            Console.ReadKey();
+            Utils.ExitKey.ExitAppIfEsc();
         }
 
         private static int CountNrOfJumpsNeeded(string[] jumpLines)

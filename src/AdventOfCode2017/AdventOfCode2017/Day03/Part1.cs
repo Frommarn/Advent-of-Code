@@ -21,7 +21,7 @@ namespace AdventOfCode2017.Day03
                 int nrOfSteps = CalculateSteps(targetNr);
                 Console.WriteLine("NrOfSteps for " + targetNr + " is " + nrOfSteps);
             }
-            Console.ReadKey();
+            Utils.ExitKey.ExitAppIfEsc();
         }
 
         private static int CalculateSteps(int targetNr)
