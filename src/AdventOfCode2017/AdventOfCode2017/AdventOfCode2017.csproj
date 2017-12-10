@@ -59,6 +59,12 @@
     <Compile Include="Day07\Part2.cs" />
     <Compile Include="Day07\Part1.cs" />
     <Compile Include="Day07\ProgramData.cs" />
+    <Compile Include="Day08\Condition.cs" />
+    <Compile Include="Day08\ConditionType.cs" />
+    <Compile Include="Day08\Part1.cs" />
+    <Compile Include="Day08\Part2.cs" />
+    <Compile Include="Day08\Register.cs" />
+    <Compile Include="Day08\RegisterInstruction.cs" />
     <Compile Include="Utils\ExitKey.cs" />
     <Compile Include="Utils\RawInputParser.cs" />
     <Compile Include="Program.cs" />
@@ -81,6 +87,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Day07\TestInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day08\rawInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day08\testInput.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

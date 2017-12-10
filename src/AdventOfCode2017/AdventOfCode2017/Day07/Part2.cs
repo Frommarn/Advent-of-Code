@@ -24,8 +24,8 @@ namespace AdventOfCode2017.Day07
         {
             //string[] data = Utils.RawInputParser.ReadRawInputFromFile("07", "TestInput.txt");
             string[] data = Utils.RawInputParser.ReadRawInputFromFile("07", "rawInput.txt");
-            int faultymProgramWeight = FindWeightOfFaultyPorgram(data);
-            Console.WriteLine("The correct weight of the faulty program is: " + faultymProgramWeight);
+            int faultyProgramWeight = FindWeightOfFaultyPorgram(data);
+            Console.WriteLine("The correct weight of the faulty program is: " + faultyProgramWeight);
             Utils.ExitKey.ExitAppIfEsc();
         }
 
