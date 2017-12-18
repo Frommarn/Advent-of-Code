@@ -27,6 +27,9 @@
 
             Day08.Part1.Run();
             Day08.Part2.Run();
+
+            Day09.Part1.Run();
+            Day09.Part2.Run();
         }
     }
 }

@@ -15,7 +15,7 @@ namespace AdventOfCode2017.Day08
         /// <param name="value"></param>
         public Condition(Register otherRegister, ConditionType conditionType, int value)
         {
-            OtherRegister = otherRegister ?? throw new ArgumentNullException(nameof(otherRegister));
+            OtherRegister = otherRegister; // ?? throw new ArgumentNullException(nameof(otherRegister));
             If = conditionType;
             Value = value;
         }

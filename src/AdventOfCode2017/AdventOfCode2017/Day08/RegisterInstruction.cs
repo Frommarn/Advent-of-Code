@@ -16,10 +16,10 @@ namespace AdventOfCode2017.Day08
         /// <param name="condition"></param>
         public RegisterInstruction(Register register, int incDec, int valueToIncDec, Condition condition)
         {
-            Register = register ?? throw new ArgumentNullException(nameof(register));
+            Register = register; // ?? throw new ArgumentNullException(nameof(register));
             IncDec = incDec;
             ValueToIncDec = valueToIncDec;
-            Condition = condition ?? throw new ArgumentNullException(nameof(condition));
+            Condition = condition; // ?? throw new ArgumentNullException(nameof(condition));
         }
 
         /// <summary>

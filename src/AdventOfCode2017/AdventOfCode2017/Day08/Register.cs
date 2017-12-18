@@ -13,7 +13,7 @@ namespace AdventOfCode2017.Day08
         /// <param name="name"></param>
         public Register(string name)
         {
-            Name = name ?? throw new ArgumentNullException(nameof(name));
+            Name = name; // ?? throw new ArgumentNullException(nameof(name));
             Value = 0;
         }
 

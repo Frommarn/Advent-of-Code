@@ -65,6 +65,11 @@
     <Compile Include="Day08\Part2.cs" />
     <Compile Include="Day08\Register.cs" />
     <Compile Include="Day08\RegisterInstruction.cs" />
+    <Compile Include="Day09\GarbageBase.cs" />
+    <Compile Include="Day09\GarbageExtracter.cs" />
+    <Compile Include="Day09\GarbageRemover.cs" />
+    <Compile Include="Day09\Part1.cs" />
+    <Compile Include="Day09\Part2.cs" />
     <Compile Include="Utils\ExitKey.cs" />
     <Compile Include="Utils\RawInputParser.cs" />
     <Compile Include="Program.cs" />
@@ -93,6 +98,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Day08\testInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day09\rawInput.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Day09\testInput.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
